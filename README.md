@@ -6,71 +6,90 @@ First of all, I have used it more, then ubuntu, personally. It's more lightweigh
 
 ### Installing OS
 **Normal install**
+
 ![Capture1](https://user-images.githubusercontent.com/118899872/204775788-2450e4b7-211f-467e-a384-dc62f52e9a4a.PNG)
 
 #### Choose language
 **English**
+
 ![Capture2](https://user-images.githubusercontent.com/118899872/204775877-b70c1334-a493-49e3-9ec2-fcea6593e8e2.PNG)
 
 #### Select location
 ```
 other - Europe - Czechia
 ```
+
 ![Capture3](https://user-images.githubusercontent.com/118899872/204775942-ca02d96c-9d1a-4906-bb82-938815ef5fa1.PNG)
 
 #### Configure locales
 **en_US.UTF-8**
+
 ![Capture4](https://user-images.githubusercontent.com/118899872/204775966-5cd83baf-70f7-48bb-b3dd-88d2ecf45cd2.PNG)
 
 #### Configure the keyboard
 **American English**
+
 ![Capture5](https://user-images.githubusercontent.com/118899872/204776032-8342abd1-8308-4bec-834b-1dddafba774b.PNG)
 
 #### Configure the network
 **manually**
+
 ![Capture6](https://user-images.githubusercontent.com/118899872/204776320-f54ab3fe-2db7-44c1-bf05-a3f575c41373.PNG)
 
 **ip address**
+
 ![Capture7](https://user-images.githubusercontent.com/118899872/204776369-788af55d-8ddf-4470-b3b0-0fc2e168543f.PNG)
 
 **netmask**
+
 ![Capture8](https://user-images.githubusercontent.com/118899872/204776391-0ee5c15f-5926-4670-a37f-85a58c592797.PNG)
 
 **gateway**
+
 ![Capture9](https://user-images.githubusercontent.com/118899872/204776408-9fa86605-5533-4275-b919-e83a43a9e517.PNG)
 
 **nameservers**
+
 ![Capture10](https://user-images.githubusercontent.com/118899872/204776437-b9129b08-e3a1-473c-9fb5-3e689561c5de.PNG)
 
 **hostname**
+
 ![Capture11](https://user-images.githubusercontent.com/118899872/204776464-d7370262-d58e-4ff5-ac99-7a4e704f7834.PNG)
 
 **domain name (nothing)**
+
 ![Capture12](https://user-images.githubusercontent.com/118899872/204776491-bef14e86-d735-4111-baa6-a0ea7b4f84fc.PNG)
 
 
 #### Set up users and passwords
 **root password**
+
 ![Capture13](https://user-images.githubusercontent.com/118899872/204776698-d78323b6-4284-4183-b89e-c0dfc041af23.PNG)
 
 **verify**
+
 ![Capture14](https://user-images.githubusercontent.com/118899872/204776729-b7599604-1c08-4aea-acaf-45ec7318e457.PNG)
 
 **new user name**
+
 ![Capture15](https://user-images.githubusercontent.com/118899872/204776755-78e7e13d-9da3-41a6-a003-00016dae227a.PNG)
 
 **user name account**
+
 ![Capture16](https://user-images.githubusercontent.com/118899872/204776777-39c6c280-f117-4498-97a7-30c8e6a7229f.PNG)
 
 **user password**
+
 ![Capture17](https://user-images.githubusercontent.com/118899872/204776809-2dc0ee3f-fb77-4712-b128-f92da67b1cda.PNG)
 
 **user password verify**
+
 ![Capture18](https://user-images.githubusercontent.com/118899872/204776816-5373d837-4766-45c4-aa9d-3aec11fe1039.PNG)
 
 
 #### Disk partitions
 **manual**
+
 ![Capture19](https://user-images.githubusercontent.com/118899872/204776866-3d82ca82-82f2-475a-92b8-471c6518be03.PNG)
 
 ```
@@ -83,15 +102,18 @@ PARTITION	SIZE	                    USAGE
 /var  	   400 MB	                  Dynamic data
 /var/log     1GB                         Logs
 ```
+
 ![Capture20](https://user-images.githubusercontent.com/118899872/204777072-5032f176-d0c4-4f3a-84f6-e26b737ed4a2.PNG)
 ![Capture21](https://user-images.githubusercontent.com/118899872/204777078-3d930e02-89b9-4fff-bd01-317ed097ed28.PNG)
 
 **/boot**
+
 ![Capture22](https://user-images.githubusercontent.com/118899872/204777101-99dc3665-3568-4797-8ab7-9a2b48f2c0eb.PNG)
 
 We can add swap memory, but for our now goals now it is unnecessary.
 
 **LVM group**
+
 ![Capture23](https://user-images.githubusercontent.com/118899872/204777138-6b710e3a-7d6b-4bef-8513-c962077eed45.PNG)
 ![Capture24](https://user-images.githubusercontent.com/118899872/204777214-90654c77-0d8f-468a-93c6-e207844cecd5.PNG)
 ![Capture25](https://user-images.githubusercontent.com/118899872/204777229-5c74a08b-b23a-493c-ba51-39d9191877b3.PNG)
@@ -99,34 +121,42 @@ We can add swap memory, but for our now goals now it is unnecessary.
 ![Capture27](https://user-images.githubusercontent.com/118899872/204777264-8c043a05-483f-4aeb-bb47-58ba9cd575f6.PNG)
 
 **create logical volumes**
+
 ![Capture28](https://user-images.githubusercontent.com/118899872/204777574-05eeda4e-4fad-4ccd-831e-ec54958bbf3f.PNG)
 ![Capture29](https://user-images.githubusercontent.com/118899872/204777592-ca85da41-b61b-4797-a6a3-6436bee0ebd5.PNG)
 
 **configure created lv partitions as /boot before**
+
 ![Capture31](https://user-images.githubusercontent.com/118899872/204777666-d2f6d4dd-88c1-4b4d-bcdf-18d7d7b816b0.PNG)
 
 **finish and write**
+
 ![Capture32](https://user-images.githubusercontent.com/118899872/204778566-4f4cd567-8c30-4e75-b616-33e058a5b22e.PNG)
 
 ![Capture33](https://user-images.githubusercontent.com/118899872/204778720-3e7f853e-633c-40d5-94f9-2f9566c0d8b1.PNG)
 
 #### Package manager
 **Czechia**
+
 ![Capture34](https://user-images.githubusercontent.com/118899872/204778835-cf999cce-83a4-45ca-a92b-939c16a083e5.PNG)
 
 **ftp.cz.debian.org**
+
 ![Capture35](https://user-images.githubusercontent.com/118899872/204778847-61789ca0-7cb7-45d8-b3d5-fdaa365d1b95.PNG)
 
 #### Proxy
 **none**
+
 ![Capture36](https://user-images.githubusercontent.com/118899872/204779007-2703a7b0-e250-40c5-ac69-1919d63d9e4c.PNG)
 
 #### Software selection
 **just *continue***
+
 ![Capture37](https://user-images.githubusercontent.com/118899872/204779061-13fdbae6-9490-42df-9652-c08ff3a81a0d.PNG)
 
 #### Grub
 **Yes**
+
 ![Capture38](https://user-images.githubusercontent.com/118899872/204779112-611f084f-b11d-4f85-8553-7d6c24e31bdb.PNG)
 
 The remove the installation media and reboot VPS.
@@ -419,6 +449,7 @@ define('FS_METHOD', 'direct');
 ```
 
 Complete instalation through web interface.
+
 ![Capture39](https://user-images.githubusercontent.com/118899872/204786294-e75975a8-e0f1-4ba1-8235-0b0c8ef3e48a.PNG)
 ![Capture40](https://user-images.githubusercontent.com/118899872/204786314-7d5bc141-6f15-4d66-98fd-5406afada7e1.PNG)
 
